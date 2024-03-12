@@ -4,9 +4,9 @@ class Solution:
         for i in range(len(nums)):
             nums_dict[nums[i]] = i
         for i, num in enumerate(nums):
-            compliment = target - num
-            if compliment in nums_dict and nums_dict[compliment] != i:
-                return [i, nums_dict[compliment]]
+            complement = target - num
+            if complement in nums_dict and nums_dict[complement] != i:
+                return [i, nums_dict[complement]]
         
 
 

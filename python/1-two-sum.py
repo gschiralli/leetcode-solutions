@@ -7,7 +7,7 @@ class Solution:
             complement = target - num
             if complement in nums_dict and nums_dict[complement] != i:
                 return [i, nums_dict[complement]]
-        
+        return []
 
 
 
